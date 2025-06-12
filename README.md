@@ -1,3 +1,4 @@
+
 # Job Portal Application
 
 **Live Link**: [Job Portal](https://job-portal-client-git-main-impulseadis-projects.vercel.app/)  
@@ -56,3 +57,50 @@ The Job Portal Application is a full-stack web application built using the **MER
    ```bash
    git clone https://github.com/impulseadi/job-portal.git
    ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd job-portal
+   ```
+
+3. Install the dependencies for both frontend and backend:
+   - For the frontend:
+     ```bash
+     cd client
+     npm install
+     ```
+   - For the backend:
+     ```bash
+     cd server
+     npm install
+     ```
+
+4. Set up environment variables:
+   - Create a `.env` file in the `server` directory and add the necessary environment variables (e.g., MongoDB URI, Clerk API keys).
+
+5. Start the backend server:
+   ```bash
+   cd server
+   npm start
+   ```
+
+6. Start the frontend application:
+   ```bash
+   cd client
+   npm start
+   ```
+
+7. Open your browser and navigate to `http://localhost:3000` to view the application.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or want to report a bug, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the developers of the MERN stack and Clerk for providing the tools that made this project possible.
+- Special thanks to the open-source community for their contributions and support.
